@@ -1,11 +1,14 @@
 @media screen and (min-device-width: 768px) and (max-device-width: 1000px) {
 div.body { width: 768px; margin: auto; }}
 
-@media screen and (min-device-width: 425px) and (max-device-width: 768px) {
+@media screen and (min-device-width: 512px) and (max-device-width: 767px) {
+div.body { width: 512px; margin: auto; } .leftimg {width: 378px; height: 378px;}}
+
+@media screen and (min-device-width: 425px) and (max-device-width: 511px) {
 div.body { width: 425px; margin: auto; } .leftimg {width: 378px; height: 378px;}}
 
-@media screen and (min-device-width: 375px) and (max-device-width: 425px) {
+@media screen and (min-device-width: 374px) and (max-device-width: 424px) {
 div.body { width: 375px; margin: auto; } .leftimg {width: 325px; height: 325px;}}
 
-@media screen and (min-device-width: 320px) and (max-device-width: 375px) {
+@media screen and (min-device-width: 319px) and (max-device-width: 373px) {
 div.body { width: 320px; margin: auto; }}
