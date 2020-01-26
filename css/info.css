@@ -1,0 +1,15 @@
+#info {
+background-color: black;
+border: 4px white solid;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-khtml-border-radius:8px;
+border-radius: 8px;
+font-size: 26px;
+
+}
+
+.leftimg {
+ float:left; /* Выравнивание по левому краю */
+ margin: 0px 15px 15px 0px; /* Отступы вокруг картинки */
+}

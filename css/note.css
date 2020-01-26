@@ -1,0 +1,51 @@
+#note_div{
+	border: 4px white solid;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius:8px;
+	border-radius: 8px;
+	width: 300px; height: 300px;
+	background-size: 300px 300px;
+}
+
+.note_name{
+	margin-top: -2px;
+	background-color: white;
+	color: black
+}
+
+#plan { 
+	justify-content: center;   
+	display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-rows: repeat(2, 300px);
+}
+
+#note { 
+	justify-content: center;   
+	display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-rows: repeat(2, 300px);
+}
+
+#note_all { 
+	justify-content: center;   
+	display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-rows: repeat(2, 300px);
+}
+
+a.note_a {
+ color: black; /* Цвет обычной ссылки */ 
+ text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+a.note_a:visited {
+ color: black; /* Цвет посещённой ссылки */
+} 
+a.note_a:hover {
+ color: black; /* Цвет ссылки при наведении на нее курсора мыши */  
+ text-decoration: underline; /* Добавляем подчеркивание */
+}

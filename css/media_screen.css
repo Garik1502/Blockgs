@@ -1,0 +1,11 @@
+@media screen and (min-device-width: 425px) and (max-device-width: 768px) {
+div.body { width: 767px; margin: auto; }}
+
+@media screen and (min-device-width: 424px) and (max-device-width: 425px) {
+div.body { width: 425px; margin: auto; } .leftimg {width: 378px; height: 378px;}}
+
+@media screen and (min-device-width: 374px) and (max-device-width: 375px) {
+div.body { width: 375px; margin: auto; } .leftimg {width: 325px; height: 325px;}}
+
+@media screen and (min-device-width: 319px) and (max-device-width: 320px) {
+div.body { width: 320px; margin: auto; }}
