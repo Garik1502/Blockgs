@@ -8,7 +8,7 @@ cvs.width = window.innerWidth - 15;
 var ctx = cvs.getContext('2d');
 // Set font, size & number of columns
 var font = 'arial';
-var fontSize = 16;
+var fontSize = 18;
 ctx.font = fontSize + 'px ' + font;
 var cols = cvs.width / fontSize;
 // Characters
