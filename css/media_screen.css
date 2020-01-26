@@ -1,11 +1,11 @@
-@media screen and (min-device-width: 425px) and (max-device-width: 768px) {
-div.body { width: 767px; margin: auto; }}
+@media screen and (min-device-width: 768px) and (max-device-width: 1000px) {
+div.body { width: 768px; margin: auto; }}
 
-@media screen and (min-device-width: 424px) and (max-device-width: 425px) {
+@media screen and (min-device-width: 425px) and (max-device-width: 768px) {
 div.body { width: 425px; margin: auto; } .leftimg {width: 378px; height: 378px;}}
 
-@media screen and (min-device-width: 374px) and (max-device-width: 375px) {
+@media screen and (min-device-width: 375px) and (max-device-width: 425px) {
 div.body { width: 375px; margin: auto; } .leftimg {width: 325px; height: 325px;}}
 
-@media screen and (min-device-width: 319px) and (max-device-width: 320px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 375px) {
 div.body { width: 320px; margin: auto; }}
