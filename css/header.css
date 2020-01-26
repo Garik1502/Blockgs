@@ -74,7 +74,7 @@
   display: block;  
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 652px) {
   .menu__icon{
     display: inline-block;
   }
