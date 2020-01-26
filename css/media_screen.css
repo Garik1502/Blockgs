@@ -2,7 +2,7 @@
 div.body { width: 768px; margin: auto; }}
 
 @media screen and (min-device-width: 512px) and (max-device-width: 767px) {
-div.body { width: 512px; margin: auto; } .leftimg {width: 378px; height: 378px;}}
+div.body { width: 652px; margin: auto; } .leftimg {width: 378px; height: 378px;}}
 
 @media screen and (min-device-width: 425px) and (max-device-width: 511px) {
 div.body { width: 425px; margin: auto; } .leftimg {width: 378px; height: 378px;}}
