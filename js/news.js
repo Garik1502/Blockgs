@@ -2,6 +2,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
 window.onload = function() {
 var arr = [
+
+`<div id="news"><h3>
+<a name="#4" href="#4">#4</a> 
+Моя биологичка как чёртова мадам Малышева... Бог с ней...	
+</h3></div>`,
+
 	`<div id="news"><h3>
 	<a name="#3" href="#3">#3</a> 
 	А вы замечали как армянское общество атомизированно?
