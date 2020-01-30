@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script>
+      function Spoiler() {
+      	var ea = document.getElementById("eadiv");
+      	var wa = document.getElementById("wadiv");
+      	var text = document.getElementById("linkSpoiler");
+      	if(ea.style.display == "none") {
+          ea.style.display = "block";
+          wa.style.display = "none";
+      		text.innerHTML = '<img width="128px" height="64px" src="WA.png"><br>Western Armenian';
+        	}
+      	else {
+      		ea.style.display = "none";
+      		wa.style.display = "block";
+      		text.innerHTML = '<img width="128px" height="64px" src="EA.png"><br>Eastern Armenian';
+      	}
+      }
+    </script>
+
+		
+
+    <div id="bod">
+			<header><h1>Armenian alphabet</h1><br><a href="en.html">English</a> &ensp; <a href="hy.html">Հայերեն</a> &ensp; <a href="ru.html">Русский</a></header><br>
+			
+      <div id="eadiv" style="display: block;">
+        <div class="butrent">
+          <div class="but"><a href="javascript:Spoiler();" class="link_spoiler" id="linkSpoiler"><img width="128px" height="64px" src="WA.png"><br>Western Armenian</a></div>
+          <div class="but_name">
+            <h2>Now<br>Eastern Armenian</h2>
+          </div>
+        </div>
+        <hr>
+        <h2>Legend</h2>
+        <div class="div1exp" id="ՏԱՌ">Braille | <b id="r">Letter</b>-[IPA]<br>Letter name - [letter name pronunciation]<br>Number<br>Digit<br><br><i>P.s. When pressed, the letter sounds</i></div>
+        <br><br>
+        <hr>
+        <h2>Mashtots letters</h2>
+        <div class="parent">
+          <div class="div1 " id="Ա">⠁	<b id="r">Աա</b>-[ɑ]   <br>այբ-[aɪb]		<br>	№I		<br>	1		</div>
+          <div class="div2 " id="Բ">⠃	<b id="b">Բբ</b>-[b]   <br>բեն-[bɛn]		<br>	№II		<br>	2		</div>
+          <div class="div3 " id="Գ">⠛	<b id="o">Գգ</b>-[g]   <br>գիմ-[gim]		<br>	№III	<br>	3		</div>
+          <div class="div4 " id="Դ">⠙	<b id="r">Դդ</b>-[d]   <br>դա-[dɑ]		<br>	№IV		<br>	4		</div>
+          <div class="div5 " id="Ե">⠚	<b id="b">Եե</b>-[ɛ]¹  <br>եչ-[jɛtʃʰ]	<br>	№V		<br>	5		</div>
+          <div class="div6 " id="Զ">⠮	<b id="o">Զզ</b>-[z]   <br>զա-[zɑ]		<br>	№VI		<br>	6		</div>
+          <div class="div7 " id="Է">⠑	<b id="r">Էէ</b>-[ɛ]   <br>է-[ɛ]		<br>	№VII	<br>	7		</div>
+          <div class="div8 " id="Ը">⠌	<b id="b">Ըը</b>-[ə]   <br>ըթ-[ətʰ]		<br>	№VIII	<br>	8		</div>
+          <div class="div9 " id="Թ">⠜	<b id="o">Թթ</b>-[tʰ]  <br>թո-[tʰo]		<br>	№IX		<br>	9		</div>
+          <div class="div10" id="Ժ">⠾	<b id="r">Ժժ</b>-[tʰ]  <br>ժե-[ʒɛ]		<br>	№X		<br>	10		</div>
+          <div class="div11" id="Ի">⠊	<b id="b">Իի</b>-[i]   <br>ինի-[ini]		<br>	№XI		<br>	20		</div>
+          <div class="div12" id="Լ">⠇	<b id="o">Լլ</b>-[l]   <br>լյուն-[lʏn]		<br>	№XII	<br>	30		</div>
+          <div class="div13" id="Խ">⠹	<b id="r">Խխ</b>-[χ]   <br>խե-[χɛ]		<br>	№XIII	<br>	40		</div>
+          <div class="div14" id="Ծ">⠉	<b id="b">Ծծ</b>-[tsʼ] <br>ծա-[tsɑ]		<br>	№XIV	<br>	50		</div>
+          <div class="div15" id="Կ">⠅	<b id="o">Կկ</b>-[kʼ]  <br>կեն-[kɛn]		<br>	№XV		<br>	60		</div>
+          <div class="div16" id="Հ">⠓	<b id="r">Հհ</b>-[h]   <br>հո-[ho]		<br>	№XVI	<br>	70		</div>
+          <div class="div17" id="Ձ">⠣	<b id="b">Ձձ</b>-[dz]  <br>ձա-[dzɑ]		<br>	№XVII	<br>	80		</div>
+          <div class="div18" id="Ղ">⠻	<b id="o">Ղղ</b>-[ʁ]   <br>ղատ-[ʁɑt]		<br>	№XVIII	<br>	90		</div>
+          <div class="div19" id="Ճ">⠩	<b id="r">Ճճ</b>-[tʃʼ] <br>ճե-[tʃɛ]		<br>	№XIX	<br>	100		</div>
+          <div class="div20" id="Մ">⠍	<b id="b">Մմ</b>-[m]   <br>մեն-[mɛn]		<br>	№XX		<br>	200		</div>
+          <div class="div21" id="Յ">⠽	<b id="o">Յյ</b>-[j]   <br>հի-[hi]		<br>	№XXI	<br>	300		</div>
+          <div class="div22" id="Ն">⠝	<b id="r">Նն</b>-[n]   <br>նու-[nu]		<br>	№XXII	<br>	400		</div>
+          <div class="div23" id="Շ">⠱	<b id="b">Շշ</b>-[ʃ]   <br>շա-[ʃɑ]		<br>	№XXIII	<br>	500		</div>
+          <div class="div24" id="Ո">⠧	<b id="o">Ոո</b>-[o]²  <br>ո-[ʋɔ]		<br>	№XXIV	<br>	600		</div>
+          <div class="div25" id="Չ">⠟	<b id="r">Չչ</b>-[tʃʰ] <br>չա-[tʃʰɑ]		<br>	№XXV	<br>	700		</div>
+          <div class="div26" id="Պ">⠏	<b id="b">Պպ</b>-[pʼ]  <br>պե-[pɛ]		<br>	№XXVI	<br>	800		</div>
+          <div class="div27" id="Ջ">⠭	<b id="o">Ջջ</b>-[ʤ]   <br>ջե-[ʤɛ]		<br>	№XXVII	<br>	900		</div>
+          <div class="div28" id="Ռ">⠷	<b id="r">Ռռ</b>-[r]   <br>ռա-[rɑ]		<br>	№XXVIII	<br>	1000	</div>
+          <div class="div29" id="Ս">⠎	<b id="b">Սս</b>-[s]   <br>սե-[sɛ]		<br>	№XXIX	<br>	2000	</div>
+          <div class="div30" id="Վ">⠺	<b id="o">Վվ</b>-[v]   <br>վեվ-[vɛv]		<br>	№XXX	<br>	3000	</div>
+          <div class="div31" id="Տ">⠞	<b id="r">Տտ</b>-[tʼ]  <br>տյուն-[tʏn]		<br>	№XXXI	<br>	4000	</div>
+          <div class="div32" id="Ր">⠗	<b id="b">Րր</b>-[ɾ]   <br>րե-[ɾɛ]		<br>	№XXXII	<br>	5000	</div>
+          <div class="div33" id="Ց">⠵	<b id="o">Ցց</b>-[tsʰ] <br>ցո-[tsʰo]		<br>	№XXXIII	<br>	6000	</div>
+          <div class="div34" id="Ւ">⠗	<b id="r">Ււ</b>-[v]   <br>վյուն-[hʏn]		<br>	№XXXIV	<br>	7000	</div>
+          <div class="div35" id="Փ">⠯	<b id="b">Փփ</b>-[pʰ]  <br>փյուր-[pʰʏɹ] 		<br>	№XXXV	<br>	8000	</div>
+          <div class="div36" id="Ք">⠬	<b id="o">Քք</b>-[kʰ]  <br>քե-[kʰɛ]		<br>	№XXXVI	<br>	9000	</div>
+        </div>
+        <h3>1. Եե word-initially - [jɛ] &emsp; 2. Ոո word-initially - [ʋɔ]</h3>
+        <br>
+        <hr>
+        <h2>The letters after the thirteenth century</h2>
+        <div class="parent1">
+          <div class="divv1" id="Օ">⠕	<b id="r">Օօ</b>-[o]  <br>o		 -[o] <br>	№XXXVII</div>
+          <div class="divv2" id="Ֆ">⠋	<b id="r">Ֆֆ</b>-[f]  <br>ֆե-[fɛ] <br>	№XXXVIII</div>
+        </div>
+        <br><br>
+        <hr>
+        <h2>Character</h2>
+        <div class="parent1">
+          <div class="divv1" id="ՈՒ">⠥	<b id="b">ՈՒ</b>-[u]  <br>Digraph</div>
+          <div class="divv2" id="և">⠡	<b id="b">և</b>-[ev]  <br>Ligature</div>
+        </div>
+        <hr><br>
+        <hr>
+				<h2>Consonants</h2>
+<div class="pparent">
+	<div class="ddiv1">№1</div>
+	<div class="ddiv2">№2</div>
+	<div class="ddiv3">№3</div>
+	<div class="ddiv4">№4</div>
+	<div class="ddiv5">№5</div>
+	<div class="ddiv6"> <b id="r">բ</b></div>
+	<div class="ddiv7"> <b id="b">գ</b></div>
+	<div class="ddiv8"> <b id="o">դ</b></div>
+	<div class="ddiv9"> <b id="r">ձ</b></div>
+	<div class="ddiv10"><b id="b">ջ</b></div>
+	<div class="ddiv11">[b] </div>
+	<div class="ddiv12">[ɡ] </div>
+	<div class="ddiv13">[d] </div>
+	<div class="ddiv14">[dz] </div>
+	<div class="ddiv15">[dʒ] </div>
+	<div class="ddiv16"><b id="r">պ</b></div>
+	<div class="ddiv17"><b id="b">կ</b></div>
+	<div class="ddiv18"><b id="o">տ</b></div>
+	<div class="ddiv19"><b id="r">ծ</b></div>
+	<div class="ddiv20"><b id="b">ճ</b></div>
+	<div class="ddiv21">[p]</div>
+	<div class="ddiv22">[k]</div>
+	<div class="ddiv23">[t]</div>
+	<div class="ddiv24">[ts]</div>
+	<div class="ddiv25">[tʃ]</div>
+	<div class="ddiv26"><b id="r">փ</b> </div>
+	<div class="ddiv27"><b id="b">ք</b> </div>
+	<div class="ddiv28"><b id="o">թ</b> </div>
+	<div class="ddiv29"><b id="r">ց</b> </div>
+	<div class="ddiv30"><b id="b">չ</b> </div>
+	<div class="ddiv31">[pʰ] </div>
+	<div class="ddiv32">[kʰ] </div>
+	<div class="ddiv33">[tʰ] </div>
+	<div class="ddiv34">[tsʰ] </div>
+	<div class="ddiv35">[tʃʰ] </div>
+	<div class="ddiv36"><b>voiced unaspirated</b></div>
+	<div class="ddiv37"><b>voiceless unaspirated</b></div>
+	<div class="ddiv38"><b>voiceless aspirate</b></div>
+</div>
+<hr><br><hr><h2>Eastern Armenian pronunciation:</h2>
+
+	<audio controls>
+    <source src="mp3/Armenian_alphabet_(Eastern_Armenian).ogg" type="audio/ogg; codecs=vorbis" >
+  </audio>
+				
+				<hr><br> <footer><h3>@Armenian alphabet<br><br>
+This site was created by Grigoryan Garik in 2019.<br><br>
+Contact with Garik: <a href="https://garik1502.github.io/Blockgs" id="url">https://garik1502.github.io/Blockgs</a><br><br>
+
+All audio files were created by Vahag Petrosyan and are available under the following license: <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" id="url">Creative Commons Attribution-Share Alike 3.0</a>.</h3></footer>
+
+      </div>
+    </div>
+    </div>
+    <!-- ---------------------------------------------------------- -->
+    <div id="wadiv" style="display: none;">
+      <div id="bod">
+        <div class="butrent">
+          <div class="but"><a href="javascript:Spoiler();" class="link_spoiler" id="linkSpoiler"><img width="128px" height="64px" src="EA.png"><br>Eastern Armenian</a></div>
+          <div class="but_name">
+            <h2>Now<br>Western Armenian</h2>
+          </div>
+        </div>
+        <hr>
+        <h2>Legend</h2>
+        <div class="div1exp" id="ՏԱՌ">Braille | <b id="r">Letter</b>-[IPA]<br>Letter name - [letter name pronunciation]<br>Number<br>Digit<br><br><i>P.s. When pressed, the letter sounds</i></div>
+        <br><br>
+        <hr>
+        <h2>Mashtots letters</h2>
+        <div class="parent">
+          <div class="div1 " id="WԱ">⠁	<b id="r">Աա</b>-[ɑ]   <br>այբ-[aɪpʰ]	<br>	№I		<br>	1		</div>
+          <div class="div2 " id="WԲ">⠃	<b id="b">Բբ</b>-[pʰ]  <br>բեն-[pʰɛn]	<br>	№II		<br>	2		</div>
+          <div class="div3 " id="WԳ">⠛	<b id="o">Գգ</b>-[kʰ]  <br>գիմ-[kʰim]	<br>	№III	<br>	3		</div>
+          <div class="div4 " id="WԴ">⠙	<b id="r">Դդ</b>-[tʰ]  <br>դա-[tʰɑ]	<br>	№IV		<br>	4		</div>
+          <div class="div5 " id="WԵ">⠚	<b id="b">Եե</b>-[jɛ]¹ <br>եչ-[jɛtʃʰ]<br>	№V		<br>	5		</div>
+          <div class="div6 " id="WԶ">⠮	<b id="o">Զզ</b>-[z]   <br>զա-[zɑ]	<br>	№VI		<br>	6		</div>
+          <div class="div7 " id="WԷ">⠑	<b id="r">Էէ</b>-[ɛ]   <br>է-[ɛ]	<br>	№VII	<br>	7		</div>
+          <div class="div8 " id="WԸ">⠌	<b id="b">Ըը</b>-[ə]   <br>ըթ-[ətʰ]	<br>	№VIII	<br>	8		</div>
+          <div class="div9 " id="WԹ">⠜	<b id="o">Թթ</b>-[tʰ]  <br>թո-[tʰo]	<br>	№IX		<br>	9		</div>
+          <div class="div10" id="WԺ">⠾	<b id="r">Ժժ</b>-[ʒ]   <br>ժե-[ʒɛ]	<br>	№X		<br>	10		</div>
+          <div class="div11" id="WԻ">⠊	<b id="b">Իի</b>-[i]   <br>ինի-[ini]	<br>	№XI		<br>	20		</div>
+          <div class="div12" id="WԼ">⠇	<b id="o">Լլ</b>-[l]   <br>լյուն-[lʏn]	<br>	№XII	<br>	30		</div>
+          <div class="div13" id="WԽ">⠹	<b id="r">Խխ</b>-[χ]   <br>խե-[χɛ]	<br>	№XIII	<br>	40		</div>
+          <div class="div14" id="WԾ">⠉	<b id="b">Ծծ</b>-[dz]  <br>ծա-[dzɑ]	<br>	№XIV	<br>	50		</div>
+          <div class="div15" id="WԿ">⠅	<b id="o">Կկ</b>-[g]   <br>կեն-[gɛn]	<br>	№XV		<br>	60		</div>
+          <div class="div16" id="WՀ">⠓	<b id="r">Հհ</b>-[h]   <br>հո-[ho]	<br>	№XVI	<br>	70		</div>
+          <div class="div17" id="WՁ">⠣	<b id="b">Ձձ</b>-[tsʰ] <br>ձա-[tsʰɑ]	<br>	№XVII	<br>	80		</div>
+          <div class="div18" id="WՂ">⠻	<b id="o">Ղղ</b>-[ʁ]   <br>ղատ-[ʁɑd]	<br>	№XVIII	<br>	90		</div>
+          <div class="div19" id="WՃ">⠩	<b id="r">Ճճ</b>-[ʤ]   <br>ճե-[ʤɛ]	<br>	№XIX	<br>	100		</div>
+          <div class="div20" id="WՄ">⠍	<b id="b">Մմ</b>-[m]   <br>մեն-[mɛn]	<br>	№XX		<br>	200		</div>
+          <div class="div21" id="WՅ">⠽	<b id="o">Յյ</b>-[j]   <br>հի-[hi]	<br>	№XXI	<br>	300		</div>
+          <div class="div22" id="WՆ">⠝	<b id="r">Նն</b>-[ŋ]   <br>նու-[nu]	<br>	№XXII	<br>	400		</div>
+          <div class="div23" id="WՇ">⠱	<b id="b">Շշ</b>-[ʃ]   <br>շա-[ʃɑ]	<br>	№XXIII	<br>	500		</div>
+          <div class="div24" id="WՈ">⠧	<b id="o">Ոո</b>-[o]²  <br>ո-[ʋɔ]	<br>	№XXIV	<br>	600		</div>
+          <div class="div25" id="WՉ">⠟	<b id="r">Չչ</b>-[tʃʰ] <br>չա-[tʃʰɑ]	<br>	№XXV	<br>	700		</div>
+          <div class="div26" id="WՊ">⠏	<b id="b">Պպ</b>-[b]   <br>պե-[bɛ]	<br>	№XXVI	<br>	800		</div>
+          <div class="div27" id="WՋ">⠭	<b id="o">Ջջ</b>-[tʃʰ] <br>ջե-[tʃʰɛ]	<br>	№XXVII	<br>	900		</div>
+          <div class="div28" id="WՌ">⠷	<b id="r">Ռռ</b>-[ɾ]   <br>ռա-[ɾɑ]	<br>	№XXVIII	<br>	1000	</div>
+          <div class="div29" id="WՍ">⠎	<b id="b">Սս</b>-[s]   <br>սե-[sɛ]	<br>	№XXIX	<br>	2000	</div>
+          <div class="div30" id="WՎ">⠺	<b id="o">Վվ</b>-[ʋ]   <br>վեվ-[vɛv]	<br>	№XXX	<br>	3000	</div>
+          <div class="div31" id="WՏ">⠞	<b id="r">Տտ</b>-[d]   <br>տյուն-[dʏn]	<br>	№XXXI	<br>	4000	</div>
+          <div class="div32" id="WՐ">⠗	<b id="b">Րր</b>-[ɾ]   <br>րե-[ɾɛ]	<br>	№XXXII	<br>	5000	</div>
+          <div class="div33" id="WՑ">⠵	<b id="o">Ցց</b>-[tsʰ] <br>ցո-[tsʰo]	<br>	№XXXIII	<br>	6000	</div>
+          <div class="div34" id="WՒ">⠗	<b id="r">Ււ</b>-[v]   <br>վյուն-[hʏn]	<br>	№XXXIV	<br>	7000	</div>
+          <div class="div35" id="WՓ">⠯	<b id="b">Փփ</b>-[pʰ]  <br>փյուր-[pʰʏɾ]	<br>	№XXXV	<br>	8000	</div>
+          <div class="div36" id="WՔ">⠬	<b id="o">Քք</b>-[kʰ]  <br>քե-[kʰɛ]	<br>	№XXXVI	<br>	9000	</div>
+
+        </div>
+        <br><br>
+        <hr>
+        <h2>
+The letters after the thirteenth century</h2>
+        <div class="parent1">
+          <div class="divv1" id="WՕ">⠕	<b id="r">Օօ</b>-[o]  <br>o		 -[o] <br>	№XXXVII</div>
+          <div class="divv2" id="WՖ">⠋	<b id="r">Ֆֆ</b>-[f]  <br>ֆե-[fɛ] <br>	№XXXVIII</div>
+        </div>
+        <br><br>
+        <hr>
+        <h2>Character</h2>
+        <div class="parent1">
+          <div class="divv1" id="WՈՒ">⠥	<b id="b">ՈՒ</b>-[u]  <br>Digraph</div>
+          <div class="divv2" id="Wև">⠡	<b id="b">և</b>-[ev]  <br>Ligature</div>
+        </div><br>
+        <hr>
+				<h2>According to the sounds</h2>
+<div class="pparent">
+	<div class="ddiv1">№1</div>
+	<div class="ddiv2">№2</div>
+	<div class="ddiv3">№3</div>
+	<div class="ddiv4">№4</div>
+	<div class="ddiv5">№5</div>
+	<div class="ddiv6"> <b id="r">բ</b></div>
+	<div class="ddiv7"> <b id="b">գ</b></div>
+	<div class="ddiv8"> <b id="o">դ</b></div>
+	<div class="ddiv9"> <b id="r">ձ</b></div>
+	<div class="ddiv10"><b id="b">ջ</b></div>
+	<div class="ddiv11">[b] </div>
+	<div class="ddiv12">[ɡ] </div>
+	<div class="ddiv13">[d] </div>
+	<div class="ddiv14">[dz] </div>
+	<div class="ddiv15">[dʒ] </div>
+	<div class="ddiv16"><b id="r">պ</b></div>
+	<div class="ddiv17"><b id="b">կ</b></div>
+	<div class="ddiv18"><b id="o">տ</b></div>
+	<div class="ddiv19"><b id="r">ծ</b></div>
+	<div class="ddiv20"><b id="b">ճ</b></div>
+	<div class="ddiv21">[p]</div>
+	<div class="ddiv22">[k]</div>
+	<div class="ddiv23">[t]</div>
+	<div class="ddiv24">[ts]</div>
+	<div class="ddiv25">[tʃ]</div>
+	<div class="ddiv26"><b id="r">փ</b> </div>
+	<div class="ddiv27"><b id="b">ք</b> </div>
+	<div class="ddiv28"><b id="o">թ</b> </div>
+	<div class="ddiv29"><b id="r">ց</b> </div>
+	<div class="ddiv30"><b id="b">չ</b> </div>
+	<div class="ddiv31">[pʰ] </div>
+	<div class="ddiv32">[kʰ] </div>
+	<div class="ddiv33">[tʰ] </div>
+	<div class="ddiv34">[tsʰ] </div>
+	<div class="ddiv35">[tʃʰ] </div>
+	<div class="ddiv36"><b>voiced unaspirated</b></div>
+	<div class="ddiv37"><b>voiceless unaspirated</b></div>
+	<div class="ddiv38"><b>voiceless aspirate</b></div>
+</div><hr><br><hr><h2>Western Armenian pronunciation:</h2>
+
+	<audio controls>
+    <source src="mp3/Armenian_alphabet_(Western_Armenian).ogg" type="audio/ogg; codecs=vorbis">
+  </audio>
+				
+				<hr><br> 
+    <footer><h3>@Armenian alphabet<br><br>
+This site was created by Grigoryan Garik in 2019.<br><br>
+Contact with Garik: <a href="https://garik1502.github.io/Blockgs" id="url">https://garik1502.github.io/Blockgs</a><br><br>
+
+All audio files were created by Vahag Petrosyan and are available under the following license: <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" id="url">Creative Commons Attribution-Share Alike 3.0</a>.</h3></footer></div>
+    </div>
+    <comment>
+
+<audio id="WՈՒAudo">
+        <source src="mp3/WՈՒ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՈՒ = document.getElementById('WՈՒ'),
+        WՈՒAudio = document.getElementById('WՈՒAudo');
+        WՈՒ.addEventListener('click', fPlay, false);
+        function fPlay() { WՈՒAudio.play();}
+      </script>
+
+      <audio id="WևAudo">
+        <source src="mp3/Wև.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Wև = document.getElementById('Wև'),
+        WևAudio = document.getElementById('WևAudo');
+        Wև.addEventListener('click', fPlay, false);
+        function fPlay() { WևAudio.play();}
+      </script>
+      <audio id="WԱAudo">
+        <source src="mp3/WԱ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԱ = document.getElementById('WԱ'),
+        WԱAudio = document.getElementById('WԱAudo');
+        WԱ.addEventListener('click', fPlay, false);
+        function fPlay() { WԱAudio.play();}
+      </script>
+      <audio id="WԲAudo">
+        <source src="mp3/WԲ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԲ = document.getElementById('WԲ'),
+        WԲAudio = document.getElementById('WԲAudo');
+        WԲ.addEventListener('click', fPlay, false);
+        function fPlay() { WԲAudio.play();}
+      </script>
+      <audio id="WԳAudo">
+        <source src="mp3/WԳ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԳ = document.getElementById('WԳ'),
+        WԳAudio = document.getElementById('WԳAudo');
+        WԳ.addEventListener('click', fPlay, false);
+        function fPlay() { WԳAudio.play();}
+      </script>
+      <audio id="WԴAudo">
+        <source src="mp3/WԴ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԴ = document.getElementById('WԴ'),
+        WԴAudio = document.getElementById('WԴAudo');
+        WԴ.addEventListener('click', fPlay, false);
+        function fPlay() { WԴAudio.play();}
+      </script>
+      <audio id="WԵAudo">
+        <source src="mp3/WԵ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԵ = document.getElementById('WԵ'),
+        WԵAudio = document.getElementById('WԵAudo');
+        WԵ.addEventListener('click', fPlay, false);
+        function fPlay() { WԵAudio.play();}
+      </script>
+      <audio id="WԶAudo">
+        <source src="mp3/WԶ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԶ = document.getElementById('WԶ'),
+        WԶAudio = document.getElementById('WԶAudo');
+        WԶ.addEventListener('click', fPlay, false);
+        function fPlay() { WԶAudio.play();}
+      </script>
+      <audio id="WԷAudo">
+        <source src="mp3/WԷ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԷ = document.getElementById('WԷ'),
+        WԷAudio = document.getElementById('WԷAudo');
+        WԷ.addEventListener('click', fPlay, false);
+        function fPlay() { WԷAudio.play();}
+      </script>
+      <audio id="WԸAudo">
+        <source src="mp3/WԸ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԸ = document.getElementById('WԸ'),
+        WԸAudio = document.getElementById('WԸAudo');
+        WԸ.addEventListener('click', fPlay, false);
+        function fPlay() { WԸAudio.play();}
+      </script>
+      <audio id="WԹAudo">
+        <source src="mp3/WԹ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԹ = document.getElementById('WԹ'),
+        WԹAudio = document.getElementById('WԹAudo');
+        WԹ.addEventListener('click', fPlay, false);
+        function fPlay() { WԹAudio.play();}
+      </script>
+      <audio id="WԺAudo">
+        <source src="mp3/WԺ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԺ = document.getElementById('WԺ'),
+        WԺAudio = document.getElementById('WԺAudo');
+        WԺ.addEventListener('click', fPlay, false);
+        function fPlay() { WԺAudio.play();}
+      </script>
+      <audio id="WԻAudo">
+        <source src="mp3/WԻ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԻ = document.getElementById('WԻ'),
+        WԻAudio = document.getElementById('WԻAudo');
+        WԻ.addEventListener('click', fPlay, false);
+        function fPlay() { WԻAudio.play();}
+      </script>
+      <audio id="WԼAudo">
+        <source src="mp3/WԼ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԼ = document.getElementById('WԼ'),
+        WԼAudio = document.getElementById('WԼAudo');
+        WԼ.addEventListener('click', fPlay, false);
+        function fPlay() { WԼAudio.play();}
+      </script>
+      <audio id="WԽAudo">
+        <source src="mp3/WԽ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԽ = document.getElementById('WԽ'),
+        WԽAudio = document.getElementById('WԽAudo');
+        WԽ.addEventListener('click', fPlay, false);
+        function fPlay() { WԽAudio.play();}
+      </script>
+      <audio id="WԾAudo">
+        <source src="mp3/WԾ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԾ = document.getElementById('WԾ'),
+        WԾAudio = document.getElementById('WԾAudo');
+        WԾ.addEventListener('click', fPlay, false);
+        function fPlay() { WԾAudio.play();}
+      </script>
+      <audio id="WԿAudo">
+        <source src="mp3/WԿ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WԿ = document.getElementById('WԿ'),
+        WԿAudio = document.getElementById('WԿAudo');
+        WԿ.addEventListener('click', fPlay, false);
+        function fPlay() { WԿAudio.play();}
+      </script>
+      <audio id="WՀAudo">
+        <source src="mp3/WՀ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՀ = document.getElementById('WՀ'),
+        WՀAudio = document.getElementById('WՀAudo');
+        WՀ.addEventListener('click', fPlay, false);
+        function fPlay() { WՀAudio.play();}
+      </script>
+      <audio id="WՁAudo">
+        <source src="mp3/WՁ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՁ = document.getElementById('WՁ'),
+        WՁAudio = document.getElementById('WՁAudo');
+        WՁ.addEventListener('click', fPlay, false);
+        function fPlay() { WՁAudio.play();}
+      </script>
+      <audio id="WՂAudo">
+        <source src="mp3/WՂ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՂ = document.getElementById('WՂ'),
+        WՂAudio = document.getElementById('WՂAudo');
+        WՂ.addEventListener('click', fPlay, false);
+        function fPlay() { WՂAudio.play();}
+      </script>
+      <audio id="WՃAudo">
+        <source src="mp3/WՃ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՃ = document.getElementById('WՃ'),
+        WՃAudio = document.getElementById('WՃAudo');
+        WՃ.addEventListener('click', fPlay, false);
+        function fPlay() { WՃAudio.play();}
+      </script>
+      <audio id="WՄAudo">
+        <source src="mp3/WՄ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՄ = document.getElementById('WՄ'),
+        WՄAudio = document.getElementById('WՄAudo');
+        WՄ.addEventListener('click', fPlay, false);
+        function fPlay() { WՄAudio.play();}
+      </script>
+      <audio id="WՅAudo">
+        <source src="mp3/WՅ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՅ = document.getElementById('WՅ'),
+        WՅAudio = document.getElementById('WՅAudo');
+        WՅ.addEventListener('click', fPlay, false);
+        function fPlay() { WՅAudio.play();}
+      </script>
+      <audio id="WՆAudo">
+        <source src="mp3/WՆ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՆ = document.getElementById('WՆ'),
+        WՆAudio = document.getElementById('WՆAudo');
+        WՆ.addEventListener('click', fPlay, false);
+        function fPlay() { WՆAudio.play();}
+      </script>
+      <audio id="WՇAudo">
+        <source src="mp3/WՇ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՇ = document.getElementById('WՇ'),
+        WՇAudio = document.getElementById('WՇAudo');
+        WՇ.addEventListener('click', fPlay, false);
+        function fPlay() { WՇAudio.play();}
+      </script>
+      <audio id="WՈAudo">
+        <source src="mp3/WՈ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՈ = document.getElementById('WՈ'),
+        WՈAudio = document.getElementById('WՈAudo');
+        WՈ.addEventListener('click', fPlay, false);
+        function fPlay() { WՈAudio.play();}
+      </script>
+      <audio id="WՉAudo">
+        <source src="mp3/WՉ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՉ = document.getElementById('WՉ'),
+        WՉAudio = document.getElementById('WՉAudo');
+        WՉ.addEventListener('click', fPlay, false);
+        function fPlay() { WՉAudio.play();}
+      </script>
+      <audio id="WՊAudo">
+        <source src="mp3/WՊ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՊ = document.getElementById('WՊ'),
+        WՊAudio = document.getElementById('WՊAudo');
+        WՊ.addEventListener('click', fPlay, false);
+        function fPlay() { WՊAudio.play();}
+      </script>
+      <audio id="WՋAudo">
+        <source src="mp3/WՋ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՋ = document.getElementById('WՋ'),
+        WՋAudio = document.getElementById('WՋAudo');
+        WՋ.addEventListener('click', fPlay, false);
+        function fPlay() { WՋAudio.play();}
+      </script>
+      <audio id="WՌAudo">
+        <source src="mp3/WՌ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՌ = document.getElementById('WՌ'),
+        WՌAudio = document.getElementById('WՌAudo');
+        WՌ.addEventListener('click', fPlay, false);
+        function fPlay() { WՌAudio.play();}
+      </script>
+      <audio id="WՍAudo">
+        <source src="mp3/WՍ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՍ = document.getElementById('WՍ'),
+        WՍAudio = document.getElementById('WՍAudo');
+        WՍ.addEventListener('click', fPlay, false);
+        function fPlay() { WՍAudio.play();}
+      </script>
+      <audio id="WՎAudo">
+        <source src="mp3/WՎ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՎ = document.getElementById('WՎ'),
+        WՎAudio = document.getElementById('WՎAudo');
+        WՎ.addEventListener('click', fPlay, false);
+        function fPlay() { WՎAudio.play();}
+      </script>
+      <audio id="WՏAudo">
+        <source src="mp3/WՏ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՏ = document.getElementById('WՏ'),
+        WՏAudio = document.getElementById('WՏAudo');
+        WՏ.addEventListener('click', fPlay, false);
+        function fPlay() { WՏAudio.play();}
+      </script>
+      <audio id="WՐAudo">
+        <source src="mp3/WՐ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՐ = document.getElementById('WՐ'),
+        WՐAudio = document.getElementById('WՐAudo');
+        WՐ.addEventListener('click', fPlay, false);
+        function fPlay() { WՐAudio.play();}
+      </script>
+      <audio id="WՑAudo">
+        <source src="mp3/WՑ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՑ = document.getElementById('WՑ'),
+        WՑAudio = document.getElementById('WՑAudo');
+        WՑ.addEventListener('click', fPlay, false);
+        function fPlay() { WՑAudio.play();}
+      </script>
+      <audio id="WՒAudo">
+        <source src="mp3/WՒ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՒ = document.getElementById('WՒ'),
+        WՒAudio = document.getElementById('WՒAudo');
+        WՒ.addEventListener('click', fPlay, false);
+        function fPlay() { WՒAudio.play();}
+      </script>
+      <audio id="WՓAudo">
+        <source src="mp3/WՓ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՓ = document.getElementById('WՓ'),
+        WՓAudio = document.getElementById('WՓAudo');
+        WՓ.addEventListener('click', fPlay, false);
+        function fPlay() { WՓAudio.play();}
+      </script>
+      <audio id="WՔAudo">
+        <source src="mp3/WՔ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՔ = document.getElementById('WՔ'),
+        WՔAudio = document.getElementById('WՔAudo');
+        WՔ.addEventListener('click', fPlay, false);
+        function fPlay() { WՔAudio.play();}
+      </script>
+      <audio id="WՕAudo">
+        <source src="mp3/WՕ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՕ = document.getElementById('WՕ'),
+        WՕAudio = document.getElementById('WՕAudo');
+        WՕ.addEventListener('click', fPlay, false);
+        function fPlay() { WՕAudio.play();}
+      </script>
+      <audio id="WՖAudo">
+        <source src="mp3/WՖ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var WՖ = document.getElementById('WՖ'),
+        WՖAudio = document.getElementById('WՖAudo');
+        WՖ.addEventListener('click', fPlay, false);
+        function fPlay() { WՖAudio.play();}
+      </script>
+
+      <audio id="ՏԱՌAudo">
+        <source src="mp3/ՏԱՌ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var ՏԱՌ = document.getElementById('ՏԱՌ'),
+        ՏԱՌAudio = document.getElementById('ՏԱՌAudo');
+        ՏԱՌ.addEventListener('click', fPlay, false);
+        function fPlay() { ՏԱՌAudio.play();}
+				
+        var ՏԱՌՌ = document.getElementById('ՏԱՌՌ'),
+        ՏԱՌAudio = document.getElementById('ՏԱՌAudo');
+        ՏԱՌՌ.addEventListener('click', fPlay, false);
+        function fPlay() { ՏԱՌAudio.play();}
+      </script>
+
+      <audio id="ՈՒAudo">
+        <source src="mp3/ՈՒ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var ՈՒ = document.getElementById('ՈՒ'),
+        ՈՒAudio = document.getElementById('ՈՒAudo');
+        ՈՒ.addEventListener('click', fPlay, false);
+        function fPlay() { ՈՒAudio.play();}
+      </script>
+
+      <audio id="ևAudo">
+        <source src="mp3/և.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var և = document.getElementById('և'),
+        ևAudio = document.getElementById('ևAudo');
+        և.addEventListener('click', fPlay, false);
+        function fPlay() { ևAudio.play();}
+      </script>
+      <audio id="ԱAudo">
+        <source src="mp3/Ա.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ա = document.getElementById('Ա'),
+        ԱAudio = document.getElementById('ԱAudo');
+        Ա.addEventListener('click', fPlay, false);
+        function fPlay() { ԱAudio.play();}
+      </script>
+      <audio id="ԲAudo">
+        <source src="mp3/Բ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Բ = document.getElementById('Բ'),
+        ԲAudio = document.getElementById('ԲAudo');
+        Բ.addEventListener('click', fPlay, false);
+        function fPlay() { ԲAudio.play();}
+      </script>
+      <audio id="ԳAudo">
+        <source src="mp3/Գ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Գ = document.getElementById('Գ'),
+        ԳAudio = document.getElementById('ԳAudo');
+        Գ.addEventListener('click', fPlay, false);
+        function fPlay() { ԳAudio.play();}
+      </script>
+      <audio id="ԴAudo">
+        <source src="mp3/Դ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Դ = document.getElementById('Դ'),
+        ԴAudio = document.getElementById('ԴAudo');
+        Դ.addEventListener('click', fPlay, false);
+        function fPlay() { ԴAudio.play();}
+      </script>
+      <audio id="ԵAudo">
+        <source src="mp3/Ե.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ե = document.getElementById('Ե'),
+        ԵAudio = document.getElementById('ԵAudo');
+        Ե.addEventListener('click', fPlay, false);
+        function fPlay() { ԵAudio.play();}
+      </script>
+      <audio id="ԶAudo">
+        <source src="mp3/Զ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Զ = document.getElementById('Զ'),
+        ԶAudio = document.getElementById('ԶAudo');
+        Զ.addEventListener('click', fPlay, false);
+        function fPlay() { ԶAudio.play();}
+      </script>
+      <audio id="ԷAudo">
+        <source src="mp3/Է.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Է = document.getElementById('Է'),
+        ԷAudio = document.getElementById('ԷAudo');
+        Է.addEventListener('click', fPlay, false);
+        function fPlay() { ԷAudio.play();}
+      </script>
+      <audio id="ԸAudo">
+        <source src="mp3/Ը.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ը = document.getElementById('Ը'),
+        ԸAudio = document.getElementById('ԸAudo');
+        Ը.addEventListener('click', fPlay, false);
+        function fPlay() { ԸAudio.play();}
+      </script>
+      <audio id="ԹAudo">
+        <source src="mp3/Թ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Թ = document.getElementById('Թ'),
+        ԹAudio = document.getElementById('ԹAudo');
+        Թ.addEventListener('click', fPlay, false);
+        function fPlay() { ԹAudio.play();}
+      </script>
+      <audio id="ԺAudo">
+        <source src="mp3/Ժ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ժ = document.getElementById('Ժ'),
+        ԺAudio = document.getElementById('ԺAudo');
+        Ժ.addEventListener('click', fPlay, false);
+        function fPlay() { ԺAudio.play();}
+      </script>
+      <audio id="ԻAudo">
+        <source src="mp3/Ի.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ի = document.getElementById('Ի'),
+        ԻAudio = document.getElementById('ԻAudo');
+        Ի.addEventListener('click', fPlay, false);
+        function fPlay() { ԻAudio.play();}
+      </script>
+      <audio id="ԼAudo">
+        <source src="mp3/Լ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Լ = document.getElementById('Լ'),
+        ԼAudio = document.getElementById('ԼAudo');
+        Լ.addEventListener('click', fPlay, false);
+        function fPlay() { ԼAudio.play();}
+      </script>
+      <audio id="ԽAudo">
+        <source src="mp3/Խ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Խ = document.getElementById('Խ'),
+        ԽAudio = document.getElementById('ԽAudo');
+        Խ.addEventListener('click', fPlay, false);
+        function fPlay() { ԽAudio.play();}
+      </script>
+      <audio id="ԾAudo">
+        <source src="mp3/Ծ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ծ = document.getElementById('Ծ'),
+        ԾAudio = document.getElementById('ԾAudo');
+        Ծ.addEventListener('click', fPlay, false);
+        function fPlay() { ԾAudio.play();}
+      </script>
+      <audio id="ԿAudo">
+        <source src="mp3/Կ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Կ = document.getElementById('Կ'),
+        ԿAudio = document.getElementById('ԿAudo');
+        Կ.addEventListener('click', fPlay, false);
+        function fPlay() { ԿAudio.play();}
+      </script>
+      <audio id="ՀAudo">
+        <source src="mp3/Հ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Հ = document.getElementById('Հ'),
+        ՀAudio = document.getElementById('ՀAudo');
+        Հ.addEventListener('click', fPlay, false);
+        function fPlay() { ՀAudio.play();}
+      </script>
+      <audio id="ՁAudo">
+        <source src="mp3/Ձ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ձ = document.getElementById('Ձ'),
+        ՁAudio = document.getElementById('ՁAudo');
+        Ձ.addEventListener('click', fPlay, false);
+        function fPlay() { ՁAudio.play();}
+      </script>
+      <audio id="ՂAudo">
+        <source src="mp3/Ղ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ղ = document.getElementById('Ղ'),
+        ՂAudio = document.getElementById('ՂAudo');
+        Ղ.addEventListener('click', fPlay, false);
+        function fPlay() { ՂAudio.play();}
+      </script>
+      <audio id="ՃAudo">
+        <source src="mp3/Ճ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ճ = document.getElementById('Ճ'),
+        ՃAudio = document.getElementById('ՃAudo');
+        Ճ.addEventListener('click', fPlay, false);
+        function fPlay() { ՃAudio.play();}
+      </script>
+      <audio id="ՄAudo">
+        <source src="mp3/Մ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Մ = document.getElementById('Մ'),
+        ՄAudio = document.getElementById('ՄAudo');
+        Մ.addEventListener('click', fPlay, false);
+        function fPlay() { ՄAudio.play();}
+      </script>
+      <audio id="ՅAudo">
+        <source src="mp3/Յ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Յ = document.getElementById('Յ'),
+        ՅAudio = document.getElementById('ՅAudo');
+        Յ.addEventListener('click', fPlay, false);
+        function fPlay() { ՅAudio.play();}
+      </script>
+      <audio id="ՆAudo">
+        <source src="mp3/Ն.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ն = document.getElementById('Ն'),
+        ՆAudio = document.getElementById('ՆAudo');
+        Ն.addEventListener('click', fPlay, false);
+        function fPlay() { ՆAudio.play();}
+      </script>
+      <audio id="ՇAudo">
+        <source src="mp3/Շ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Շ = document.getElementById('Շ'),
+        ՇAudio = document.getElementById('ՇAudo');
+        Շ.addEventListener('click', fPlay, false);
+        function fPlay() { ՇAudio.play();}
+      </script>
+      <audio id="ՈAudo">
+        <source src="mp3/Ո.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ո = document.getElementById('Ո'),
+        ՈAudio = document.getElementById('ՈAudo');
+        Ո.addEventListener('click', fPlay, false);
+        function fPlay() { ՈAudio.play();}
+      </script>
+      <audio id="ՉAudo">
+        <source src="mp3/Չ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Չ = document.getElementById('Չ'),
+        ՉAudio = document.getElementById('ՉAudo');
+        Չ.addEventListener('click', fPlay, false);
+        function fPlay() { ՉAudio.play();}
+      </script>
+      <audio id="ՊAudo">
+        <source src="mp3/Պ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Պ = document.getElementById('Պ'),
+        ՊAudio = document.getElementById('ՊAudo');
+        Պ.addEventListener('click', fPlay, false);
+        function fPlay() { ՊAudio.play();}
+      </script>
+      <audio id="ՋAudo">
+        <source src="mp3/Ջ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ջ = document.getElementById('Ջ'),
+        ՋAudio = document.getElementById('ՋAudo');
+        Ջ.addEventListener('click', fPlay, false);
+        function fPlay() { ՋAudio.play();}
+      </script>
+      <audio id="ՌAudo">
+        <source src="mp3/Ռ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ռ = document.getElementById('Ռ'),
+        ՌAudio = document.getElementById('ՌAudo');
+        Ռ.addEventListener('click', fPlay, false);
+        function fPlay() { ՌAudio.play();}
+      </script>
+      <audio id="ՍAudo">
+        <source src="mp3/Ս.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ս = document.getElementById('Ս'),
+        ՍAudio = document.getElementById('ՍAudo');
+        Ս.addEventListener('click', fPlay, false);
+        function fPlay() { ՍAudio.play();}
+      </script>
+      <audio id="ՎAudo">
+        <source src="mp3/Վ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Վ = document.getElementById('Վ'),
+        ՎAudio = document.getElementById('ՎAudo');
+        Վ.addEventListener('click', fPlay, false);
+        function fPlay() { ՎAudio.play();}
+      </script>
+      <audio id="ՏAudo">
+        <source src="mp3/Տ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Տ = document.getElementById('Տ'),
+        ՏAudio = document.getElementById('ՏAudo');
+        Տ.addEventListener('click', fPlay, false);
+        function fPlay() { ՏAudio.play();}
+      </script>
+      <audio id="ՐAudo">
+        <source src="mp3/Ր.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ր = document.getElementById('Ր'),
+        ՐAudio = document.getElementById('ՐAudo');
+        Ր.addEventListener('click', fPlay, false);
+        function fPlay() { ՐAudio.play();}
+      </script>
+      <audio id="ՑAudo">
+        <source src="mp3/Ց.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ց = document.getElementById('Ց'),
+        ՑAudio = document.getElementById('ՑAudo');
+        Ց.addEventListener('click', fPlay, false);
+        function fPlay() { ՑAudio.play();}
+      </script>
+      <audio id="ՒAudo">
+        <source src="mp3/Ւ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ւ = document.getElementById('Ւ'),
+        ՒAudio = document.getElementById('ՒAudo');
+        Ւ.addEventListener('click', fPlay, false);
+        function fPlay() { ՒAudio.play();}
+      </script>
+      <audio id="ՓAudo">
+        <source src="mp3/Փ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Փ = document.getElementById('Փ'),
+        ՓAudio = document.getElementById('ՓAudo');
+        Փ.addEventListener('click', fPlay, false);
+        function fPlay() { ՓAudio.play();}
+      </script>
+      <audio id="ՔAudo">
+        <source src="mp3/Ք.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ք = document.getElementById('Ք'),
+        ՔAudio = document.getElementById('ՔAudo');
+        Ք.addEventListener('click', fPlay, false);
+        function fPlay() { ՔAudio.play();}
+      </script>
+      <audio id="ՕAudo">
+        <source src="mp3/Օ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Օ = document.getElementById('Օ'),
+        ՕAudio = document.getElementById('ՕAudo');
+        Օ.addEventListener('click', fPlay, false);
+        function fPlay() { ՕAudio.play();}
+      </script>
+      <audio id="ՖAudo">
+        <source src="mp3/Ֆ.mp3" type="audio/mpeg">
+      </audio>
+      <script>
+        var Ֆ = document.getElementById('Ֆ'),
+        ՖAudio = document.getElementById('ՖAudo');
+        Ֆ.addEventListener('click', fPlay, false);
+        function fPlay() { ՖAudio.play();}
+      </script>
+    </comment>
+  </body>
+</html>
