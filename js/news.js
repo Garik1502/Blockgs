@@ -10,6 +10,11 @@ window.onload = function() {
 
 */	
 var arr = [
+	
+	`<div id="news"><h3>
+<a name="#5" href="news.html#5">#5</a> 
+Моя жизнь делиться на два момента: До того как я узнал что смеситель изобрёл армянин, и после...
+</h3></div>`,
 
 `<div id="news"><h3>
 <a name="#4" href="news.html#4">#4</a> 
