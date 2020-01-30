@@ -157,8 +157,6 @@ text-align: center;
 height: 64px;
 width: 100%;
 margin: -21px 0px 16px;
-background-color: black;
-color: white;
 
 }
 
@@ -166,12 +164,10 @@ footer {
 	padding: 5px;
 width: 100%;
 margin: -21px 0px 16px;
-background-color: black;
-color: white;
 }
 
 #url { 
- color: white;
+ color: black;
 } 
 
 A {
