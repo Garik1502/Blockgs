@@ -10,6 +10,12 @@ window.onload = function() {
 
 */	
 var arr = [
+	
+	`<div id="news"><h3>
+<a name="#7" href="news.html#7">#7</a> 
+Как актуально: <br> <iframe width="560" height="315" src="https://www.youtube.com/embed/Sq75fCNYHtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</h3></div>`,
+	
 	`<div id="news"><h3>
 <a name="#6" href="news.html#6">#6</a> 
 На Відміну Від - Я боюся Чебурашку<br><iframe width="560" height="315" src="https://www.youtube.com/embed/2n0PJqHVGcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
