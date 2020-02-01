@@ -4,12 +4,17 @@ window.onload = function() {
 /*
 
 `<div id="news"><h3>
-<a name="#N" href="news.html#N">#N</a> 
+<a name="#N" href="news.html#N">#N</a>
 ...
 </h3></div>`,
 
 */	
 var arr = [
+	
+	`<div id="news"><h3>
+<a name="#8" href="news.html#8">#8</a> 
+Чёрт, это получаеться что Superman - Übermensch по немецки? :D
+</h3></div>`,
 	
 	`<div id="news"><h3>
 <a name="#7" href="news.html#7">#7</a> 
