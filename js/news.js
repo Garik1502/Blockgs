@@ -13,7 +13,10 @@ var arr = [
 	
 `<div id="news"><h3>
 <a name="#9" href="news.html#9">#9</a>
-Бог умер в воскресенье, на седьмой день, когда соотворил Человека!<br> Это мы его убили! Не я, не ты, а МЫ! Люди! 
+Бог умер в воскресенье, на седьмой день, когда соотворил Человека!<br>
+Это мы его убили! Не я, не ты, а МЫ! Люди!<br>
+К слову о боге, он умирал под песню Paolo Conte - L'orchestrina<br>
+<iframe width="300" height="315" src="https://www.youtube.com/embed/UEzva4K_HTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </h3></div>`,
 	
 	`<div id="news"><h3>
