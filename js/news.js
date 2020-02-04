@@ -11,9 +11,14 @@ window.onload = function() {
 */	
 var arr = [
 	
+`<div id="news"><h3>
+<a name="#9" href="news.html#9">#9</a>
+Бог умер в воскресенье, на седьмой день, когда соотворил Человека!<br> Это мы его убили! Не я, не ты, а МЫ! Люди! 
+</h3></div>`,
+	
 	`<div id="news"><h3>
 <a name="#8" href="news.html#8">#8</a> 
-Чёрт, это получаеться что Superman - Übermensch по немецки? :D
+Чёрт, это получаеться что Superman - Übermensch по немецки?
 </h3></div>`,
 	
 	`<div id="news"><h3>
