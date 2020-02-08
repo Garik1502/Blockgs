@@ -1,0 +1,14 @@
+img[tabindex="0"]:focus {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  margin: auto;
+  max-width: 99%;
+  max-height: 99%;
+  box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(255, 255, 255, 0.753);
+}
