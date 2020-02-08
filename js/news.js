@@ -12,7 +12,7 @@ window.onload = function() {
 var arr = [
 	
 `<div id="news"><h3>
-<a name="#11" href="news.html#11">#11</a>
+<a name="#11" href="news.html#11">#11</a><br>
 —Вечером свободны вы?<br>
 —Нет<br>
 —А завтра днём?<br>
