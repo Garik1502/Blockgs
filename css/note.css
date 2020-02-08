@@ -19,7 +19,7 @@
 	display: grid;
   grid-gap: 35px;
   grid-template-columns: repeat(auto-fit, 300px);
-  grid-template-rows: repeat(2, 300px);
+  grid-template-rows: repeat(1, 300px);
 }
 
 #note { 
@@ -27,7 +27,7 @@
 	display: grid;
   grid-gap: 35px;
   grid-template-columns: repeat(auto-fit, 300px);
-  grid-template-rows: repeat(2, 300px);
+  grid-template-rows: repeat(1, 300px);
 }
 
 #note_all { 
