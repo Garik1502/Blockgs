@@ -12,6 +12,12 @@ window.onload = function() {
 var arr = [
 	
 `<div id="news"><h3>
+<a name="#12" href="news.html#12">#12</a>
+Сколькосколько метров??? Это что бы снимать 850-метровую Бурдж-Хлифа с верху?<br>
+<img src="https://sun9-33.userapi.com/c858028/v858028876/177701/Z45m5cvidwc.jpg" width="300" tabindex="0"/>
+</h3></div>`,
+	
+`<div id="news"><h3>
 <a name="#11" href="news.html#11">#11</a><br>
 —Вечером свободны вы?<br>
 —Нет<br>
