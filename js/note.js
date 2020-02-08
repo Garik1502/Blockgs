@@ -10,11 +10,10 @@ Text: Lorem ipsum parabelle
 
 var arr_note = [
 	
-`<div id="note_div" style="background-image: url(https://sun9-67.userapi.com/c855120/v855120386/1f3a3d/sCqdOdRZzfw.jpg);">
+`<a href="note/1.html" class="note_a"><div id="note_div" style="background-image: url(https://sun9-67.userapi.com/c855120/v855120386/1f3a3d/sCqdOdRZzfw.jpg);">
 <h3 class="note_name">
-<a href="note/1.html" class="note_a">
 Антисоветские пасхалки в армянских мультфильмах
-</a></h3></div>`
+</h3></div></a>`
 	
 ];
 
