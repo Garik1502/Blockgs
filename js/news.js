@@ -5,7 +5,7 @@ window.onload = function() {
 
 `<div id="news"><h3>
 <a name="#N" href="news.html#N">#N</a>
-Боливар не выдержит двоих
+...
 </h3></div>`,
 
 */	
