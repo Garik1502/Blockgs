@@ -5,11 +5,16 @@ window.onload = function() {
 
 `<div id="news"><h3>
 <a name="#N" href="news.html#N">#N</a>
-...
+Боливар не выдержит двоих
 </h3></div>`,
 
 */	
 var arr = [
+	
+`<div id="news"><h3>
+<a name="#13" href="news.html#13">#13</a>
+Боливар не выдержит двоих
+</h3></div>`,
 	
 `<div id="news"><h3>
 <a name="#12" href="news.html#12">#12</a>
