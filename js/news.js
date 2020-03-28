@@ -12,18 +12,14 @@ window.onload = function() {
 var arr = [
 	
 `<div id="news"><h3>
-<a name="#13" href="news.html#13">#13</a>
-Боливар не выдержит двоих
+<a name="#2" href="news.html#2">#2</a>
+gorgeouz beats - интересный, малопопулярный проект, основан на том 
+что, они(люди в этом проекте) находят старую армянскую музыку и трансформируют ее в ритмы современного типа, а также даею им новое дыхание.<br>
+<iframe width="300" height="256" src="https://www.youtube.com/embed/videoseries?list=PLKSpzMLR5brv95snm7vBTxghvQ0zQ6SWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </h3></div>`,
 	
 `<div id="news"><h3>
-<a name="#12" href="news.html#12">#12</a>
-Сколько сколько метров??? Это что бы снимать 850-метровую Бурдж-Хлифа с верху?<br>
-<img src="https://sun9-24.userapi.com/c858532/v858532082/d6ccb/E7qTmaP_HZs.jpg" width="300" tabindex="0"/>
-</h3></div>`,
-	
-`<div id="news"><h3>
-<a name="#11" href="news.html#11">#11</a><br>
+<a name="#1" href="news.html#1">#1</a><br>
 —Вечером свободны вы?<br>
 —Нет<br>
 —А завтра днём?<br>
@@ -44,70 +40,7 @@ var arr = [
 &emsp;и не после десяти, <br>
 &emsp;не могу я, не могу, <br>
 &emsp;быть свободным вне раю...<br>
-</h3></div>`,
-	
-	`<div id="news"><h3>
-<a name="#10" href="news.html#10">#10</a>
-И разделённый на две части, мир и поныне так живёт: удачливый фортуну славит, а неудачливый — клянёт.
-<br>
-© Хуана де ла Крус
-
-</h3></div>`,
-	
-`<div id="news"><h3>
-<a name="#9" href="news.html#9">#9</a>
-Бог умер в воскресенье, на седьмой день, когда соотворил Человека!<br>
-Это мы его убили! Не я, не ты, а МЫ! Люди!<br>
-К слову о боге, он умирал под песню Paolo Conte - L'orchestrina<br>
-<iframe width="300" height="315" src="https://www.youtube.com/embed/UEzva4K_HTo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</h3></div>`,
-	
-	`<div id="news"><h3>
-<a name="#8" href="news.html#8">#8</a> 
-Чёрт, это получаеться что Superman - Übermensch по немецки?
-</h3></div>`,
-	
-	`<div id="news"><h3>
-<a name="#7" href="news.html#7">#7</a> 
-Как актуально: <br> <iframe width="300" height="315" src="https://www.youtube.com/embed/Sq75fCNYHtY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</h3></div>`,
-	
-	`<div id="news"><h3>
-<a name="#6" href="news.html#6">#6</a> 
-На Відміну Від - Я боюся Чебурашку<br><iframe width="300" height="315" src="https://www.youtube.com/embed/2n0PJqHVGcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</h3></div>`,
-	
-	`<div id="news"><h3>
-<a name="#5" href="news.html#5">#5</a> 
-Моя жизнь делиться на два момента: До того как я узнал что смеситель изобрёл армянин, и после...
-</h3></div>`,
-
-`<div id="news"><h3>
-<a name="#4" href="news.html#4">#4</a> 
-Моя биологичка как чёртова мадам Малышева... Бог с ней...	
-</h3></div>`,
-
-	`<div id="news"><h3>
-	<a name="#3" href="news.html#3">#3</a> 
-	А вы замечали как армянское общество атомизированно?
- Нет, ну правда, даже я иногда избегаю встреч с армянами,
- хотя это наверное связано с тем что у меня не шибко то и много
-вожмозностей на такие встречи. Между армянами идёт какая-то странная 
-конфронтация.
-	</h3></div>`,
-
-	`<div id="news"><h3>
-	<a name="#2" href="news.html#2">#2</a> 
-	Коронавирус ещё не успели искоренить, а съёмки новой экранизации "Противостояния" по Стивену Кингу подходят к концу. Вовремя однако...
-	</h3></div>`,
-
-	`<div id="news"><h3>
-	<a name="#1" href="news.html#1">#1</a> 
-	Звенит январская вьюга и ливни хлещут упруго <br>
-	И звезды мчатся по кругу и шумят города <br>
-	Не видят люди друг друга, проходят мимо друг друга <br>
-	Теряют люди друг друга, а потом не найдут никогда
-	</h3></div>`
+</h3></div>`
 ];
 
 // выводим в другом массиве
