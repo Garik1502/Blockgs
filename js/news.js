@@ -14,7 +14,7 @@ var arr = [
 `<div id="news"><h3>
 <a name="#2" href="news.html#2">#2</a>
 gorgeouz beats - интересный, малопопулярный проект, основан на том 
-что, они(люди в этом проекте) находят старую армянскую музыку и трансформируют ее в ритмы современного типа, а также даею им новое дыхание.<br>
+что, они(люди в этом проекте) находят старую армянскую музыку и трансформируют ее в ритмы современного типа, а также дают им новое дыхание.<br>
 <iframe width="300" height="256" src="https://www.youtube.com/embed/videoseries?list=PLKSpzMLR5brv95snm7vBTxghvQ0zQ6SWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </h3></div>`,
 	
