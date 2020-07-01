@@ -7,7 +7,7 @@ var arr_plan = [
 <h3 class="note_name">Армянский алфавит</h3></div></a>`,
 
 `<a href="https://garik1502.github.io/Blockgs/plan/book/one.pdf" class="note_a">
-<div id="note_div" style="background-image: url(https://www.litmir.me/data/Book/0/659000/659819/BC3_1572188466.jpg?raw=true);">
+<div id="note_div" style="background-image: url(https://sun9-12.userapi.com/c631327/v631327418/4c357/7NMGvTZcQjw.jpg?raw=true);">
 <h3 class="note_name">АМО САГИЯН — «Перед закатом»</h3></div></a>`
 	
 ];
