@@ -10,20 +10,6 @@ window.onload = function() {
 
 */	
 var arr = [
-
-`<div id="news"><h3>
-<a name="#3" href="news.html#3">#3</a>
-Недавно прочитал путёвую заметку писателя Василия Семеновича Гроссмана - "Добро вам!", повествующею о поездке в Армению. 
-Опубликовано было в 1967 г. в Советском Союзе со значительными цензурными вставками, интересное чтиво: 
-http://lib.ru/PROZA/GROSSMAN/dobro.txt
-</h3></div>`,	
-	
-`<div id="news"><h3>
-<a name="#2" href="news.html#2">#2</a>
-gorgeouz beats - интересный, малопопулярный проект, основан на том 
-что, они(люди в этом проекте) находят старую армянскую музыку и трансформируют ее в ритмы современного типа, а также дают им новое дыхание.<br>
-<iframe width="300" height="256" src="https://www.youtube.com/embed/videoseries?list=PLKSpzMLR5brv95snm7vBTxghvQ0zQ6SWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</h3></div>`,
 	
 `<div id="news"><h3>
 <a name="#1" href="news.html#1">#1</a><br>
