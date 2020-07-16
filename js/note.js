@@ -9,8 +9,13 @@ document.addEventListener('DOMContentLoaded', function(){
 var arr_note = [
 	
 `<a href="note/1.html" class="note_a">
-<div id="note_div" style="background-image: url(https://sun9-67.userapi.com/c855120/v855120386/1f3a3d/sCqdOdRZzfw.jpg);">
-<h3 class="note_name">Антисоветские пасхалки в армянских мультфильмах</h3></div></a>`	
+<div id="note_div" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e5/Mazirov.jpg);">
+<h3 class="note_name">Карта: Д. Е. Мазиров</h3></div></a>`,
+
+`<a href="note/2.html" class="note_a">
+<div id="note_div" style="background-image: url(https://sun9-18.userapi.com/_apPqsAIOpA0aaaTk7wOGzYMySavKeah4d-AjQ/5Y30-8UVgSE.jpg);">
+<h3 class="note_name">Карта: С. Лехаци</h3></div></a>`
+
 	
 ];
 
