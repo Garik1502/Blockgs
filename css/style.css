@@ -62,12 +62,12 @@ border-radius: 8px;
 
 a {
  color: white; /* Цвет обычной ссылки */ 
- text-decoration: none; /* Убираем подчеркивание у ссылок */
+ text-decoration: underline;; /* Убираем подчеркивание у ссылок */
 }
 a:visited {
  color: whitesmoke; /* Цвет посещённой ссылки */
 } 
 a:hover {
  color: whitesmoke; /* Цвет ссылки при наведении на нее курсора мыши */  
- text-decoration: underline; /* Добавляем подчеркивание */
+ text-decoration: none; /* Добавляем подчеркивание */
 }
