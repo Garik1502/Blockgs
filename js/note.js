@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function(){
 */
 
 var arr_note = [
+`<a href="note/3.html" class="note_a">
+<div id="note_div" style="background-image: url(https://sun9-69.userapi.com/yjeArsFZwqcfN4FF2Sr-mB1hxGdCAtpLFRQeog/xGIr9aYMjsQ.jpg);">
+<h3 class="note_name">Титан - Валерий Гегамян</h3></div></a>`,
 	
 `<a href="note/1.html" class="note_a">
 <div id="note_div" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e5/Mazirov.jpg);">
